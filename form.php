@@ -9,7 +9,7 @@
 
 <h1>Enter Nomic-testnet-4d BTC deposit address</h1>
 
-<form method="post" action="send.php">
+<form method="post" action="confirm.php">
 
 Customer Name: <br />
 <input type="text" name="WALLET_ADDR" size="35" />
