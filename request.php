@@ -1,5 +1,5 @@
 <?php
-$WALLET = $_POST['WALLET_ADDR'];
+WALLET = $_POST['WALLET_ADDR'];
 
 
 if(empty($WALLET )) {
@@ -8,7 +8,7 @@ die ("Go back and try again.");
 }
 echo "<h2>Check the transaction to the address requested:</h2>";
 echo "<b>Block explorer:</b><br><br>";
-echo "https://blockstream.info/testnet/address/"$WALLET";
+echo "https://blockstream.info/testnet/address/$WALLET";
 ?>
 
 <?php
